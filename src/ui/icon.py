@@ -1,0 +1,40 @@
+"""
+Application icon as base64 encoded PNG.
+"""
+
+ICON_BASE64 = (
+    "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"
+    "/JjGlKv/AYZGk4b4+G7mAAAAAElFTkSuQmCC"
+)
+
+
+def get_icon_data() -> str:
+    """Return base64 icon data as string for QPixmap loading."""
+    return ICON_BASE64
